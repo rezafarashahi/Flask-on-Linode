@@ -14,7 +14,13 @@ from flask_app.forms import PostForm
 
 @app.route("/")
 def home():
-    return render_template("index1.html", name="Tim")
+    return render_template("index_1.html", name="Tim")
+
+@app.route("/profile2")
+def profile2():
+    args = request.args
+    name = args.get('name')
+    return render_template("index_1.html.html", name=name)
 
 @app.route("/about")
 def about():
