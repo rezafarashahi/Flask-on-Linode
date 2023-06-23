@@ -14,7 +14,7 @@ from flask_app.forms import PostForm
 
 @app.route("/")
 def home():
-    return render_template("index.html", name="Tim")
+    return render_template("index1.html", name="Tim")
 
 @app.route("/about")
 def about():
