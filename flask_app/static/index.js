@@ -7,16 +7,16 @@
 // var x = "Hello world!!";
 // console.log(x);
 //
-// function red(){
-//     console.log("red");
-//     // document.write("red")
-//     document.getElementById("header").style.color = 'red';
-// }
-// function green(){
-//     console.log("green");
-//     // document.write("red")
-//     document.getElementById("header").style.color = 'green';
-// }
+function red(){
+    console.log("red");
+    // document.write("red")
+    document.getElementById("header").style.color = 'red';
+}
+function green(){
+    console.log("green");
+    // document.write("red")
+    document.getElementById("header").style.color = 'green';
+}
 
 function press(){
     x = document.getElementById("inp2").value;
