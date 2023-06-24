@@ -12,7 +12,7 @@ from flask_app.forms import PostForm
 #     posts = Post.query.all()
 #     return render_template("index.html", posts=posts)
 
-@app.route("/")
+@app.route("/agi")
 def home():
     return render_template("index_1.html", name="Tim")
 
